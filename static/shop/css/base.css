@@ -1,0 +1,100 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f8f9fa;
+}
+
+.form-layout {
+    border-radius: 20px;
+    width: 500px;
+}
+
+.badge {
+    padding-left: 9px;
+    padding-right: 9px;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    border-radius: 9px;
+}
+
+#lblCartCount {
+    font-size: 12px;
+    background: #3c9700;
+    color: #fff;
+    padding: 0 5px;
+    vertical-align: top;
+    margin-left: -2px;
+}
+
+a {
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.superNav {
+    font-size: 13px;
+}
+
+.form-control {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.navbar-nav li:hover > ul.dropdown-menu {
+    display: block;
+}
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu > .dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+}
+
+/* rotate caret on hover */
+.dropdown-menu > li > a:hover:after {
+    text-decoration: underline;
+    transform: rotate(-90deg);
+}
+
+@media screen and (max-width: 540px) {
+    .centerOnMobile {
+        text-align: center;
+    }
+}
+
+/* NavBar Search Button */
+.search-button {
+    background-color: #45EDAD;
+}
+
+/* Card styles */
+.card {
+    transition: transform 0.3s;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+/* Product grid */
+.row-cols-md-5 .col {
+    margin-bottom: 20px;
+}
+
+/* Introduction section */
+.py-4 {
+    padding-top: 1.5rem !important;
+    padding-bottom: 1.5rem !important;
+}
+
+.lead {
+    font-size: 1.25rem;
+    font-weight: 300;
+}
